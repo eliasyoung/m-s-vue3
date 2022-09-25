@@ -1,7 +1,12 @@
 <template>
   <div>
     <section>FILTER</section>
-    <section>COACHES</section>
+    <section>
+      <div class="controls"></div>
+      <ul>
+        LIST OF COACHES
+      </ul>
+    </section>
   </div>
 </template>
 

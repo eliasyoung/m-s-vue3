@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style lang="less">
-@import url("https://fonts.font.im/css?family=Roboto+Condensed");
+// @import url("https://fonts.font.im/css?family=Roboto+Condensed");
 
 * {
   box-sizing: border-box;
