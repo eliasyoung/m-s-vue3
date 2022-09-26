@@ -1,17 +1,18 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from "vue";
+import Vuex from "vuex";
 
-Vue.use(Vuex)
+import coachesModules from "@/store/modules/coaches";
+
+Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    test: 1,
   },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+  getters: {},
+  mutations: {},
+  actions: {},
   modules: {
-  }
-})
+    coaches: coachesModules,
+  },
+});
