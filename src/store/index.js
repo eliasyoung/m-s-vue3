@@ -6,10 +6,16 @@ import coachesModules from "@/store/modules/coaches";
 Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {
-    test: 1,
+  state() {
+    return {
+      userId: "c3",
+    };
   },
-  getters: {},
+  getters: {
+    userId(state) {
+      return state.userId;
+    },
+  },
   mutations: {},
   actions: {},
   modules: {
